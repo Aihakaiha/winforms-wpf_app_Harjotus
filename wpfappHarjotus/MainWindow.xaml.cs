@@ -29,10 +29,20 @@ namespace wpfappHarjotus
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Random rand = new Random();
+
             for (int i = 0; i < 20; i++)
             {
-                MessageBox.Show("kekw" + rand.Next(1, 100).ToString(), "kekw" + rand.Next(1, 100).ToString(), MessageBoxButton.OK);
+                Window asd = new Window();
+                asd.Title = "kekw" + rand.Next(1, 300).ToString();
+                asd.Width = rand.Next(300, 700);
+                asd.Height = rand.Next(300, 700);
+                asd.Show();
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(nimiLoota.Text, "Nimi");
         }
     }
 }

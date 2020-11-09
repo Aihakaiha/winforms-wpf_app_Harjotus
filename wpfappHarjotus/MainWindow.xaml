@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="kekw" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,138,0,0" VerticalAlignment="Top" Height="149" Width="242" Click="Button_Click"/>
+        <Button IsEnabled="False" Content="Do. Not. Press." HorizontalAlignment="Left" VerticalAlignment="Top" Height="149" Width="242" Click="Button_Click"/>
+        <TextBox x:Name="nimiLoota" HorizontalAlignment="Left" Margin="453,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="178,231,0,0" Text="En tienny mitä piti tehä ni tein vaara nappulan:D" TextWrapping="Wrap" VerticalAlignment="Top" Height="18" Width="256"/>
+        <Button Content="press (safe)" HorizontalAlignment="Left" Margin="453,283,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+
 
     </Grid>
 </Window>
